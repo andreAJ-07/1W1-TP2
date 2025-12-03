@@ -6,4 +6,4 @@ Que ce soit pour vivre l’intensité d’un match, assister à un spectacle gra
 
 - Auteur: André Armendariz-Jasso
 - Cours: 1W1-Mise en page Web
-- Github-page: 
+- Github-page: https://andreaj-07.github.io/1W1-TP2/
