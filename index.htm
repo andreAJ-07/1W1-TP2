@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Andre TP2</title>
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/menu.css">
+    <link rel="stylesheet" href="css/formulaire.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Lexend:wght@100..900&display=swap" rel="stylesheet">
+
+</head>
+<body>
+
+<!--///////////////////////////////////////////////////////////////////////////-->
+
+    <div>
+    <header class="centre">
+
+        <div class="hero__barresup">
+            <a href="#">
+                <img class="logoimg" src="../andre-aj-tp2/images/logo.png" alt="logo">
+            </a>
+
+         <!-- <nav class="hero__menu">
+            <a class="menu__a" href="#acceuil">ACCEUIL</a>
+            <a class="menu__a" href="#inscription">INSCRIPTION</a>
+            <a class="menu__a" href="#couts">COUTS</a>
+            <a class="menu__a" href="#nouveaute">NOUVEAUTÉ</a>
+            <a class="menu__a" href="#boutique">BOUTIQUE</a>
+            <a class="menu__a" href="#videos">VIDÉOS</a>
+            <a class="menu__a" href="#addresse">ADDRESSE</a>
+        </nav> -->
+
+        </div>
+
+<div class="navigation">
+        <label class="navigation__bouton" for="chk-burger">
+            <h2>MENU</h2>
+        <img src="https://s2.svgbox.net/hero-solid.svg?ic=menu&color=fff" width="32" height="32">
+        </label>
+        <input type="checkbox" id="chk-burger">
+    <nav class="navigation__menu">
+        <a href="#acceuil">ACCEUIL</a>
+        <a href="#inscription">INSCRIPTION</a>
+        <a href="#couts">COUTS</a>
+        <a href="#nouveaute">NOUVEAUTÉ</a>
+        <a href="#boutique">BOUTIQUE</a>
+        <a href="#videos">VIDÉOS</a>
+        <a href="#addresse">ADDRESSE</a>
+    </nav>
+</div>
+
+    </header>
+    </div>
+<!--///////////////////////////////////////////////////////////////////////////-->
+    <div class="hero">
+
+        <section class="acceuil centre" id="acceuil">
+            <h1>LE STADE OLYMPIQUE</h1>
+            <h2>VENEZ VISITER <a class="hero__insc" href="#inscription">Inscription</a></h2>
+            <p>Auteur: André Armendariz-Jasso</p>
+
+            <div class="hero__description">
+                
+            <h2>Le Stade Olympique : un symbole architectural et sportif incontournable</h2>
+            
+            <p>Véritable icône du paysage urbain, le Stade Olympique se distingue par son architecture audacieuse et son histoire riche. Conçu pour accueillir de grands événements internationaux, il offre une infrastructure polyvalente capable de recevoir des compétitions sportives, des concerts, des expositions et des rassemblements d’envergure.
+            Son design moderne, marqué par des lignes élancées et une structure imposante, fait du stade un repère visuel unique. Doté d’une capacité importante et d’équipements technologiques de pointe, il garantit confort, sécurité et expérience immersive à tous ses visiteurs.
+            Que ce soit pour vivre l’intensité d’un match, assister à un spectacle grandiose ou découvrir un site emblématique, le Stade Olympique demeure un lieu incontournable, alliant patrimoine, innovation et divertissement.
+            </p>
+            </div>
+                
+
+        </section>
+
+
+    </div>
+<!--///////////////////////////////////////////////////////////////////////////-->  
+    <div class="signup">
+        <section class="inscription centre" id="inscription"><h2>INSCRIPTION</h2>
+            <form class="formulaire">
+        <div class="formulaire__div">
+            <fieldset>
+                <label class="formulaire__label" for="txt-nom">Nom</label>
+                <input class="formulaire__text" id= "txt-nom" type="text" placeholder="Entrez votre nom">
+            </fieldset>
+
+            <fieldset>
+                <label class="formulaire__label" for="txt-prenom">Prénom</label>
+                <input class="formulaire__text" id= "txt-prenom" type="text" placeholder="Entrez votre prénom">
+            </fieldset>
+
+            <fieldset>
+                <label class="formulaire__label" for="txt-nom">Courriel</label>
+                <input class="formulaire__text" id= "txt-nom" type="email" placeholder="Entrez votre courriel">
+            </fieldset>
+        </div>
+        
+        
+            <fieldset>
+                <legend>ABONNEMENT</legend>
+                <label><input type="radio" name="rad-abonnement"> Pro</label>
+                <label><input type="radio" name="rad-abonnement"> Intermédiaire</label>
+                <label><input type="radio" name="rad-abonnement"> Débutant</label>
+            </fieldset>
+        
+
+        <input type="submit" value="Valider">
+
+    </form>
+        </section>
+    </div>
+<!--///////////////////////////////////////////////////////////////////////////-->   
+    <div>
+        <section class="couts centre" id="couts"><h2>TARRIFS</h2>
+    <br>
+       <table>
+  <thead>
+    <tr>
+      <th>Visite du Stade</th>
+      <th>Adulte</th>
+      <th>Ainé (65+)</th>
+      <th>Étudiant (18+)</th>
+      <th>Enfant (5 à 17)</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>SOLO</td>
+      <td>18,50$</td>
+      <td>16,25$</td>
+      <td>14,50$</td>
+      <td>9,25$</td>
+    </tr>
+    <tr>
+      <td>DUO</td>
+      <td>36,00$</td>
+      <td>32,25$</td>
+      <td>27,00$</td>
+      <td>18,00$</td>
+    </tr>
+    <tr>
+      <td>TRIO</td>
+      <td>50,75$</td>
+      <td>46,00$</td>
+      <td>38,25$</td>
+      <td>25,00$</td>
+    </tr>
+    <tr>
+      <td>QUATTRO</td>
+      <td>65,50$</td>
+      <td>59,75$</td>
+      <td>49,50$</td>
+      <td>32,00$</td>
+    </tr>
+  </tbody>
+</table>
+        </section>
+
+
+    </div>
+<!--///////////////////////////////////////////////////////////////////////////-->
+    <div>
+        <section class="nouveaute centre" id="nouveaute"><h2>NOUVEAUTÉ</h2></section>
+    </div>
+<!--///////////////////////////////////////////////////////////////////////////-->    
+    <div>
+        <section class="boutique centre" id="boutique"><h2>BOUTIQUE</h2></section>
+    </div>
+<!--///////////////////////////////////////////////////////////////////////////-->    
+    <div>
+        <section class="videos centre" id="videos"><h2>VIDÉOS</h2></section>
+    </div>
+<!--///////////////////////////////////////////////////////////////////////////-->    
+    <div>
+
+    <footer class="centre" id="addresse">
+
+    <section class="footer__contact">
+        <h3>CONTACTEZ-NOUS</h3>            
+        <ul>
+            <li>4545, avenue Pierre-De Coubertin</li>
+            <li>Montréal</li>
+            <li>Québec</li>
+            <li>H1V 0B2</li>
+            <li>Métro Viau</li>
+            <li>514 252-4141</li>
+        </ul>
+    </section>
+    <section class="footer__contact">
+        <h3>BIODOME</h3>            
+        <ul>
+            <li>4545, avenue Pierre-De Coubertin</li>
+            <li>Montréal</li>
+            <li>Québec</li>
+            <li>H1V 1B3</li>
+            <li>Métro Viau</li>
+        </ul>
+    </section>
+        <section class="footer__contact">
+        <h3>PLANÉTARIUM RIO TINTO ALCAN</h3>            
+        <ul>
+            <li>4801, avenue Pierre-De Coubertin</li>
+            <li>Montréal</li>
+            <li>Québec</li>
+            <li>H1V 3V4</li>
+            <li>Métro Viau</li>
+        </ul>
+    </section>
+        <section class="footer__contact">
+        <h3>JARDIN BOTANIQUE/INSECTARIUM</h3>            
+        <ul>
+            <li>4110, rue Sherbrooke Est</li>
+            <li>Montréal</li>
+            <li>Québec</li>
+            <li>H1X 2B2</li>
+            <li>Métro Pie IX</li>
+        </ul>
+    </section>
+    
+
+    </footer>
+    </div>
+
+</body>
+</html>

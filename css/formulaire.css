@@ -1,0 +1,30 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    color: white;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.formulaire{
+    
+}
+
+.formulaire__div{
+    display: flex;
+    text-wrap: wrap;
+    justify-content: space-between;
+}
+
+.formulaire fieldset{
+    margin: 20px 0;
+    border: 3px  solid #fefcfc20;
+}
+
+.formulaire label{
+    display: block;
+}
+
+
+
