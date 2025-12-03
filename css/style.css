@@ -58,6 +58,10 @@ h1, h2, h3{
 .hero__description h2{
     text-align: center;
 }
+
+.hero__description h2{
+    color: black;
+}
 .hero__description p{
     padding: 20px;
     background-color: #00000049;
@@ -133,6 +137,50 @@ caption{
 
 tbody tr:nth-of-type(odd){
     background-color: rgba(0, 0, 0, 0.311);
+}
+
+.principal__section{
+    display:flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.principal__figure{
+    margin: 0;
+}
+
+.principal__figure img{
+    display:block;
+    width: 486px;
+    height: 300px;
+    border-radius: 5%;
+}
+
+.principal__article {
+    flex-grow: 1; /* peut grandir */
+    flex-shrink: 0; /* peut pas se compresser */
+    flex-basis:  340px; /* largeur minimum de l'article */;
+    border: 2px solid #ffffff00;
+    border-radius: 10px;
+    padding : 15px;   
+    background-color: #ffffff25; 
+    padding-top: 1px;
+    
+}
+
+.principal__article h3{
+    padding: 10px;
+}
+.principal__article p {
+    font-size: 15px;
+    border-radius: 5%;
+    background-color: rgba(0, 0, 0, 0.171);
+    padding: 10px;    
+}
+
+code{
+    font-size: 18px;
+    font-style: italic;
 }
 /*////////////////////////////////////////////*/
 
