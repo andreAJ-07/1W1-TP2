@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/menu.css">
     <link rel="stylesheet" href="css/formulaire.css">
+    <link rel="stylesheet" href="css/articles.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
 
 <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -23,24 +24,13 @@
 
 <!--///////////////////////////////////////////////////////////////////////////-->
 
-    <div>
+    <div class="barre">
     <header class="centre">
 
         <div class="hero__barresup">
             <a href="#">
-                <img class="logoimg" src="../andre-aj-tp2/images/logo.png" alt="logo">
+                <img class="logoimg" src="../images/logo.png" alt="logo">
             </a>
-
-         <!-- <nav class="hero__menu">
-            <a class="menu__a" href="#acceuil">ACCEUIL</a>
-            <a class="menu__a" href="#inscription">INSCRIPTION</a>
-            <a class="menu__a" href="#couts">COUTS</a>
-            <a class="menu__a" href="#nouveaute">NOUVEAUTÉ</a>
-            <a class="menu__a" href="#boutique">BOUTIQUE</a>
-            <a class="menu__a" href="#videos">VIDÉOS</a>
-            <a class="menu__a" href="#addresse">ADDRESSE</a>
-        </nav> -->
-
         </div>
 
 <div class="navigation">
@@ -124,7 +114,6 @@
 <!--///////////////////////////////////////////////////////////////////////////-->   
     <div>
         <section class="couts centre" id="couts"><h2>TARRIFS</h2>
-    <br>
        <table>
   <thead>
     <tr>
@@ -172,48 +161,63 @@
     </div>
 <!--///////////////////////////////////////////////////////////////////////////-->
     <div>
-        <section class="nouveaute centre" id="nouveaute">
+        <section class="centre" id="nouveaute">
             <h2>NOUVEAUTÉ</h2>
-            <br>
-            <section class="principal__section">
-                <article class="principal__article">
-                    <h3>Rénovation du toit</h3>
-                    <figure class="principal__figure">
-                        <img src="images/toit.jpg" alt="toit">
-                    </figure>
-                   
-                    <p>Le Stade olympique est en pleine transformation : depuis 2024, on a commencé à retirer complètement l’ancienne toiture, devenue trop endommagée après des décennies de problèmes. Le gouvernement du Québec a lancé un projet de 870 millions de dollars pour remplacer le toit par une structure fixe, plus solide et durable.
-                    Les travaux se font en plusieurs étapes : démontage de la membrane, retrait de l’énorme anneau technique en béton, puis installation d’une nouvelle structure d’acier qui accueillera un toit moderne, conçu pour durer au moins 50 ans. Cette rénovation permettra enfin d’utiliser le stade à l’année, pour des concerts, salons et événements sportifs, ce qui n’était pas possible avec l’ancien toit qui ne supportait pas la neige.
-                    Même si le projet a suscité des débats sur les coûts, il marque une nouvelle phase pour ce symbole montréalais, qui devrait retrouver sa place comme grand lieu événementiel dès la fin des travaux.</p>
-                    <code>23 octobre 2025</code>
-                </article>
-                                <article class="principal__article">
-                    <h3>Nouvelle terrasse!</h3>
-                    <figure class="principal__figure">
-                        <img src="images/obs.jpg" alt="terrasse">
-                    </figure>
-                    <p>Une terrasse panoramique sera aménagée au sommet de la tour du Stade olympique. Elle offrira une vue spectaculaire sur tout Montréal depuis 165 m de hauteur. Le projet inclut aussi un funiculaire modernisé avec une cabine vitrée pour accéder au sommet.
-                    La terrasse ne devrait pas ouvrir avant fin 2026, car elle fait partie des grands travaux de modernisation du site. Une fois terminée, elle deviendra un nouvel attrait touristique majeur et un lieu unique pour admirer la ville.</p>
-                    <code>23 octobre 2025</code>
-                </article>
-                                <article class="principal__article">
-                    <h3>Article</h3>
-                    <figure class="principal__figure">
-                        <img src="images/3.jpg" alt="jardin">
-                    </figure>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-                    <code>23 octobre 2025</code>
-                </article>
-                                <article class="principal__article">
-                    <h3>Article</h3>
-                    <figure class="principal__figure">
-                        <img src="images/CDM-1.jpg" alt="entrée">
-                    </figure>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-                    <code>23 octobre 2025</code>
-                </article>
 
-            </section>
+            <article class="article">
+                <div class="article__div">
+                    <h3>Rénovation du toit</h3>
+                    <p>Le Stade olympique est en pleine transformation : depuis 2024, on a commencé à retirer complètement l’ancienne toiture, devenue trop endommagée après des décennies de problèmes. Le gouvernement du Québec a lancé un projet de 870 millions de dollars pour remplacer le toit par une structure fixe, plus solide et durable.
+                    Les travaux se font en plusieurs étapes : démontage de la membrane, retrait de l’énorme anneau technique en béton, puis installation d’une nouvelle structure d’acier qui accueillera un toit moderne, conçu pour durer au moins 50 ans.</p>
+                    <p> Cette rénovation permettra enfin d’utiliser le stade à l’année, pour des concerts, salons et événements sportifs, ce qui n’était pas possible avec l’ancien toit qui ne supportait pas la neige.
+                    Même si le projet a suscité des débats sur les coûts, il marque une nouvelle phase pour ce symbole montréalais, qui devrait retrouver sa place comme grand lieu événementiel dès la fin des travaux.</p>
+                </div>
+                <figure class="article__figure">
+                    <img class="article__img" src="images/toit.jpg" alt="stade">
+                    <figcaption class="article__figcaption">Le stade sans son toit</figcaption>
+                </figure>
+            </article>
+
+            <article class="article">
+                <div class="article__div">
+                    <h3>Une nouvelle térrasse</h3>
+                    <p>Le Stade olympique s’apprête à ajouter une nouveauté excitante à son complexe : une terrasse panoramique aménagée au sommet de sa célèbre tour inclinée. Ce projet vise à offrir aux visiteurs une vue exceptionnelle sur Montréal, tout en modernisant l’un des symboles architecturaux les plus connus de la ville.
+                    La terrasse fera partie d’un vaste chantier qui inclut aussi un funiculaire entièrement revampé et de nouveaux espaces d’accueil. </p>
+                    <p>Une fois terminée, elle devrait devenir un lieu incontournable pour admirer la métropole, relaxer et découvrir le Parc olympique sous un nouvel angle.
+                    L’ouverture est prévue d’ici les prochaines années, mais déjà, l’idée d’un rooftop au sommet de la tour ravive l’intérêt pour ce monument unique. Une belle façon de redonner vie à ce géant emblématique du paysage montréalais.</p>
+                </div>
+                <figure class="article__figure">
+                    <img class="article__img" src="images/obs.jpg" alt="stade">
+                    <figcaption class="article__figcaption">Apercu digital de la terrasse</figcaption>
+                </figure>
+            </article>
+
+            <article class="article">
+                <div class="article__div">
+                    <h3>Futur hotel</h3>
+                    <p>Un projet moins architectural mais important pour le milieu : la construction d’un hôtel urbain adjacent au Parc olympique. 
+                    Le projet prévoit un bâtiment de 7 étages, avec 180 à 200 chambres sur ~6 000 m², ainsi que des services comme un spa, deux restaurants et une salle multifonctionnelle — ce qui pourrait dynamiser le quartier et attirer davantage de visiteurs au Stade et au parc.</p>
+                    <p>La première pelletée de terre est prévue aux environs de 2026, ce qui montre l’intention de redonner à l’ensemble du site une vocation plus large que sportive ou événementielle — un vrai projet d’urbanisme et d’hébergement pour l’Est de Montréal.</p>
+                </div>
+                <figure class="article__figure">
+                    <img class="article__img" src="images/hotel.png" alt="stade">
+                    <figcaption class="article__figcaption">Apercu digital de l'hotel</figcaption>
+                </figure>
+            </article>
+
+            <article class="article">
+                <div class="article__div">
+                    <h3>Verdure du parc</h3>
+                    <p>Le Parc olympique ajoute une touche de verdure à son paysage urbain avec l’aménagement d’un nouveau jardin public entre l’esplanade et l’accès au métro Pie-IX. Cet espace, pensé pour offrir une pause naturelle en plein cœur du secteur, comprend de nouveaux sentiers piétons, des zones d’ombre, des plantations d’arbres indigènes ainsi que plusieurs aires de repos.</p>
+                    <p>L’objectif est de rendre le site plus accueillant au quotidien, pas seulement lors des grands événements. Le jardin offrira aussi un cadre agréable pour les familles, les coureurs et les travailleurs du quartier. En favorisant la biodiversité et en améliorant le microclimat autour du Stade, ce nouvel espace contribue à transformer le Parc olympique en véritable lieu de vie, accessible et apaisant.</p>
+                </div>
+                <figure class="article__figure">
+                    <img class="article__img" src="images/OIP.webp" alt="parc">
+                    <figcaption class="article__figcaption">Apercu digital du parc</figcaption>
+                </figure>
+            </article>
+
+
         </section>
     </div>
 <!--///////////////////////////////////////////////////////////////////////////-->    
@@ -225,7 +229,7 @@
         <section class="videos centre" id="videos"><h2>VIDÉOS</h2></section>
     </div>
 <!--///////////////////////////////////////////////////////////////////////////-->    
-    <div>
+    <div class="footer">
 
     <footer class="centre" id="addresse">
 
