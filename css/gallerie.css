@@ -1,0 +1,46 @@
+.gallerie{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.gallerie__figure{
+    flex-grow: 1;
+    flex-shrink: 0;
+    flex-basis: 350px;
+    transform: rotate(10deg); 
+    transition: 0.2s cubic-bezier(.17,.67,.83,.67);
+    filter: blur(4px);
+}
+
+.gallerie__img{
+    display: block;
+    width: 100%;
+    padding: 9;
+    margin: 0;    
+}
+
+.gallerie__figcaption{
+    color: rgb(255, 255, 255);
+    background-color: black;
+    padding: 10px;
+    text-align: center;
+
+}
+
+
+
+figure {
+    margin: 0;
+    padding: 0;
+}
+
+.gallerie__figure:nth-of-type(odd){
+    transform: rotate(-10deg);
+}
+
+.gallerie__figure:hover{
+    transform: scale(1.5);
+    filter: none;;
+    z-index: 1;
+}
