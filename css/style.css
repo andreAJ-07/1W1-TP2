@@ -53,7 +53,7 @@ h3 {
 }
 
 .hero__description {
-  margin-top: 700px;
+  margin-top: 500px;
   padding: 20px;
   background-color: rgba(255, 255, 255, 0.521);
   backdrop-filter: blur(2px);
@@ -97,11 +97,6 @@ h3 {
   background-color: rgba(255, 255, 255, 0.032);
   padding: 20px;
   /* min-height: 100vh;*/
-}
-
-.centre h1 {
-  font-family: Arial, Helvetica, sans-serif;
-  color: #04bf9d;
 }
 
 .centre h2 {
@@ -176,11 +171,6 @@ footer {
   flex-basis: 200px;
 }
 
-.footer__liens {
-  flex-grow: 1;
-  flex-shrink: 0;
-  flex-basis: 200px;
-}
 
 /*///////////////////////////////////////////*/
 
@@ -240,6 +230,11 @@ body > div:nth-of-type(7) {
 }
 
 body > div:nth-of-type(8) {
+  background-color: #f1d495;
+  background-size: cover;
+}
+
+body > div:nth-of-type(9) {
   background-color: #333333;
   background-size: cover;
 }

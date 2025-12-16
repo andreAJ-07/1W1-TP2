@@ -41,6 +41,6 @@ figure {
 
 .gallerie__figure:hover{
     transform: scale(1.5);
-    filter: none;;
+    filter: none;
     z-index: 1;
 }

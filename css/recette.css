@@ -1,0 +1,64 @@
+.recette {
+  font-family: "Montserrat", sans-serif;
+  color: black;
+
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0px;
+  gap: 30px;
+}
+
+.recette:nth-of-type(odd) .recette__div {
+  order: -1;
+}
+
+h1 {
+  font-family: "DynaPuff", sans-serif;
+  color: black;
+  font-size: 5rem;
+}
+
+.recette li {
+  font-family: "Montserrat", sans-serif;
+  color: black;
+}
+.recette ol {
+}
+.recette__div {
+  flex-grow: 1;
+  flex-shrink: 0;
+  flex-basis: 0;
+  width: 50px;
+}
+.recette__image {
+}
+
+.recette__figure {
+  flex-grow: 1;
+  flex-shrink: 0;
+  flex-basis: 300;
+
+  transform: rotate(5deg);
+  transition: 0.2s cubic-bezier(0.17, 0.67, 0.83, 0.67);
+  border: 3px dotted #606060;
+  border-radius: 10px;
+  width: 40%;
+  padding: 10px;
+}
+
+.recette__figure:nth-of-type(odd) {
+  transform: rotate(-5deg);
+}
+
+.recette__figure:hover {
+  transform: rotate(0deg);
+}
+
+.recette__img {
+  width: 100%;
+}
+
+.recette__figcaption {
+  background-color: rgba(0, 0, 0, 0.18);
+  text-align: center;
+}

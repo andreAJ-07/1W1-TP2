@@ -54,9 +54,26 @@
 .navigation__menu{
     transform: translateX(100%);
     transition: .5s linear;
+    border-radius: 60px;
 }
 
 #chk-burger:checked ~ .navigation__menu {
     transform: translateX(0%);
     transition: .5s linear;
+    border-radius: 10px;
+}
+
+.navigation__home img{
+    margin-top: 400%;
+    animation: hue-shift 5s infinite linear;
+  max-width: 100%; 
+}
+
+@keyframes hue-shift {
+  0% {
+    filter: hue-rotate(0deg); 
+  }
+  100% {
+    filter: hue-rotate(360deg);
+  }
 }
